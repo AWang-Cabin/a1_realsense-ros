@@ -14,7 +14,7 @@ Add a launch file named rs_pointcloud.launch to launch a camera node only publis
  
 To run the launch file:
 ```
-roslaunch realsense_camera rs_pointcloud.launch
+roslaunch realsense2_camera rs_pointcloud.launch
 ```
 
 ## Installation Instructions
