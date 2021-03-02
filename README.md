@@ -9,6 +9,9 @@ For running in ROS2-Foxy environment please switch to the [foxy branch](https://
 
 LibRealSense supported version: v2.42.0 (see [realsense2_camera release notes](https://github.com/IntelRealSense/realsense-ros/releases))
 
+## PKG modification for Unitree-A1 by wyn in 2020
+Add a launch file named rs_pointcloud.launch to launch a camera node only publish pointcloud, color, depth topic and employ 5 filters (decimation,disparity,spatial,temporal,hole_filling) to enhance the point cloud output performance.
+
 ## Installation Instructions
 
 ### Ubuntu
