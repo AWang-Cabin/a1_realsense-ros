@@ -11,6 +11,11 @@ LibRealSense supported version: v2.42.0 (see [realsense2_camera release notes](h
 
 ## PKG modification for Unitree-A1 by wyn in 2020
 Add a launch file named rs_pointcloud.launch to launch a camera node only publish pointcloud, color, depth topic and employ 5 filters (decimation,disparity,spatial,temporal,hole_filling) to enhance the point cloud output performance.
+ 
+To run the launch file:
+```
+roslaunch realsense_camera rs_pointcloud.launch
+```
 
 ## Installation Instructions
 
